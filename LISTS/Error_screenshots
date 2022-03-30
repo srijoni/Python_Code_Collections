@@ -1,0 +1,111 @@
+python3 Finding_Max_Heterogeneous_Lists.py 
+Enter elements of a list separated by space ertu 4 tyue 5 6 1 hth i
+
+
+list:  ['ertu', '4', 'tyue', '5', '6', '1', 'hth', 'i']
+Traceback (most recent call last):
+  File "Finding_Max_Heterogeneous_Lists.py", line 13, in <module>
+    hetero_list[i] = (user_list[i])
+NameError: name 'user_list' is not defined
+
+
+
+220321T052346Z-001/PYTHON_PROBLEMS/LISTS$ python3 Finding_Max_Heterogeneous_Lists.py 
+  File "Finding_Max_Heterogeneous_Lists.py", line 25
+    
+                       ^
+SyntaxError: unexpected EOF while parsing
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/LISTS$ python3 Finding_Max_Heterogeneous_Lists.py 
+Enter elements of a list separated by spaceyt iy 0 6
+
+
+list:  ['yt', 'iy', '0', '6']
+['yt', 'iy', '0', '6']
+4
+<class 'list'>
+Traceback (most recent call last):
+  File "Finding_Max_Heterogeneous_Lists.py", line 24, in <module>
+    print(type(int(j)))
+ValueError: invalid literal for int() with base 10: 'yt'
+
+
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/LISTS$ python3 input_test.py 
+Enter elements of a list separated by space t 6
+
+
+list:  ['t', '6']
+error message
+<class 'str'>
+<class 'int'>
+Traceback (most recent call last):
+  File "input_test.py", line 20, in <module>
+    print("Sum = ", sum(user_list))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+Traceback (most recent call last):
+  File "Mode_list_hetero.py", line 36, in <module>
+    max, sim_pos=maximum_list(hetero_dict.values())
+  File "/home/srijoni/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/LISTS/Finding_highest_integer_static.py", line 11, in maximum_list
+    if hetero_list[j]>max1:
+TypeError: 'dict_values' object is not subscriptable
+
+
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Finding_highest_integer_static_dict.py 
+[45, 50, 49, 74]
+Traceback (most recent call last):
+  File "Finding_highest_integer_static_dict.py", line 40, in <module>
+    print("max value keys", get_key(max1))
+  File "Finding_highest_integer_static_dict.py", line 14, in get_key
+    if (type(k)== float or type(k) == int):
+NameError: name 'k' is not defined
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Finding_highest_integer_static_dict.py 
+[45, 50, 49, 74]
+max value keys Student4
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Finding_highest_integer_static_dict.py 
+[45, 50, 74, 74]
+max value keys Student3
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Finding_highest_integer_static_dict.py 
+[45, 50, 74, 74]
+Traceback (most recent call last):
+  File "Finding_highest_integer_static_dict.py", line 42, in <module>
+    print("max value keys", get_key(max1))
+  File "Finding_highest_integer_static_dict.py", line 18, in get_key
+    key.append(key)
+AttributeError: 'str' object has no attribute 'append'
+
+
+[45, 50, 74, 74, 96]
+hetero_list_i [50, 45, 74, 74, 96]
+hetero_list_i [74, 45, 50, 74, 96]
+hetero_list_i [96, 45, 50, 74, 74]
+hetero_list_i [45, 96, 50, 74, 74]
+hetero_list_i [45, 50, 96, 74, 74]
+hetero_list_i [45, 50, 74, 96, 74]
+hetero_list_i [45, 50, 74, 74, 96]
+[45, 50, 74, 74, 96]
+Traceback (most recent call last):
+  File "Sorting_list_dict.py", line 36, in <module>
+    print("key", hetero_dict.index(j), "values", j)
+AttributeError: 'dict' object has no attribute 'index'
+
+
+
+220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Sorting_list_dict.py 
+[99, 50, 74, 74, 96]
+[50, 74, 74, 96, 99]
+50
+Traceback (most recent call last):
+  File "Sorting_list_dict.py", line 37, in <module>
+    print(key_list[hetero_list.index(j)])
+TypeError: 'dict_keys' object is not subscriptable
+srijoni@srijoni-HP-ZBook-Firefly-14-G7-Mobile-Workstation:~/Desktop/TCG Crest-20220321T052346Z-001/PYTHON_PROBLEMS/MAPS$ python3 Sorting_list_dict.py 
+[99, 50, 74, 74, 96]
+[50, 74, 74, 96, 99]
+50
+Traceback (most recent call last):
+  File "Sorting_list_dict.py", line 38, in <module>
+    print(key_list[pos])
+TypeError: 'dict_keys' object is not subscriptable
+
+
